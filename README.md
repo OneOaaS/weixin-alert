@@ -9,7 +9,7 @@ Zabbix告警的使用方法
 ```
 wget https://raw.githubusercontent.com/OneOaaS/weixin-alert/master/weixin_linux_amd64
 cp weixin_linux_amd64 /etc/zabbix/alertscripts/weixin
-chown 755 /etc/zabbix/alertscripts/weixin
+chmod 755 /etc/zabbix/alertscripts/weixin
 chown zabbix:zabbix /etc/zabbix/alertscripts/weixin
 ```
 
