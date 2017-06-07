@@ -20,3 +20,20 @@ chown zabbix:zabbix /etc/zabbix/alertscripts/weixin
 {"errcode":0,"errmsg":"ok","invaliduser":""}
 ```
 
+# 查看帮助
+```
+./weixin_linux_amd64 --help
+Usage of ./weixin_linux_amd64:
+  -agentid string
+    	agentid
+  -author string
+    	http://www.oneoaas.com
+  -corpid string
+    	corpid
+  -corpsecret string
+    	corpsecret
+  -msg string
+    	Send Message
+  -user string
+    	which user to send msg
+```
