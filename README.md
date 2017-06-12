@@ -37,3 +37,26 @@ Usage of ./weixin_linux_amd64:
   -user string
     	which user to send msg
 ```
+
+# 支持群组发送
+```
+Usage of weixin_linux_amd64_toparty:
+  -agentid string
+        agentid
+  -author string
+        http://www.oneoaas.com
+  -corpid string
+        corpid
+  -corpsecret string
+        corpsecret
+  -msg string
+        Send Message
+  -toparty string
+        which toparty to send msg
+  -totag string
+        which totag to send msg
+  -user string
+        which user to send msg
+
+        其中toparty,totag,user三个参数任选其一发送即可
+```
